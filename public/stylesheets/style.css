@@ -1,0 +1,155 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: table;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.header {
+  position: absolute;
+  padding: 24px 0 0 0;
+  width: 100%;
+  font-weight: 600;
+}
+
+.div_inner_header {
+  padding: 0 24px 0 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.div_status_header {
+  justify-content: center;
+  margin-left: auto;
+  padding-top: 2px;
+  display: flex;
+  border-radius: 16px;
+  border: 1px #81daf5 solid;
+  background-color: #81daf5;
+  color: #ffffff;
+  width: 64px;
+  height: 20px;
+}
+
+.div_main {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.div_sec {
+  width: 320px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+form {
+  width: 240px;
+}
+
+.a_form {
+  width: 500px;
+}
+
+.div_caption {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.div_input {
+ 
+}
+
+.a_section1 {
+  display: flex;
+  justify-content: center;
+}
+
+.a_section2 {
+  
+}
+
+.a_section3 {
+  
+}
+
+.a_section4 {
+  padding: 0 6px 0 0;
+}
+
+.a_section5 {
+  padding: 8px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.s_input {
+  width: 230px;
+  height: 28px;
+  border: 1px #606060 solid;
+  font-size: 16px;
+  outline-color: none;
+  border-radius: 3px;
+  margin-bottom: 8px;
+  padding: 0 4px 0 4px;
+}
+
+.s_input_small {
+  width: 154px;
+  margin: 2px;
+}
+
+.s_input_small_sec {
+  width: 238px;
+  margin-top: 8px;
+  margin-right: -1px;
+}
+
+.s_submit {
+  width: 240px;
+  box-sizing: border-box;
+  height: 36px;
+  border: 1px #47d0fa solid;
+  background-color: #81daf5;
+  color: #ffffff;
+  font-size: 16px;
+  outline-color: none;
+  border-radius: 3px;
+  margin-top: 8px;
+}
+
+.s_button_small {
+  width: 84px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea {
+  border: 1px #606060 solid;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.div_user_btn {
+  padding-top: 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

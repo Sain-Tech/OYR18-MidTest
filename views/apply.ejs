@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title><%= title %></title>
+</head>
+<body>
+    <header class="header">
+        <div class="div_inner_header">
+            <div>
+                OpenYearRound
+            </div>
+            <div style="font-weight:500; padding-left:36px; color:grey">
+                지원하기
+            </div>
+            <div class="div_status_header">
+                Sign In
+            </div>
+        </div>
+    </header>
+    <div class="div_main">
+        <div class="div_sec">
+            <form class="a_form" action="/apply" method="POST">
+                <div class="div_caption">
+                    <h2>동아리 지원서</h2>
+                </div>
+        
+                <div class="div_input">
+                    <div class="a_section1">
+                        <input class="s_input s_input_small" type="text" name="stdname" placeholder="이름" tabindex="1">
+                        <input class="s_input s_input_small" type="text" name="stdmajor" placeholder="학과" tabindex="2">
+                        <input class="s_input s_input_small" type="text" name="stdnum" placeholder="학번" tabindex="3">
+                    </div>
+                    <div class="a_section2">
+                        <input class="s_input s_input_small_sec" style="margin-right:0px;" type="text" name="stdphone" placeholder="전화번호" tabindex="4">
+                        <input class="s_input s_input_small_sec" type="email" name="stdemail" placeholder="이메일" tabindex="5">
+                    </div>
+                    <div class="a_section3">
+                        <input class="" type="checkbox" name="mil" tabindex="6"> 군필
+                        <input class="" type="checkbox" name="nomil" tabindex="7" style="margin-left:24px;"> 미필
+                    </div>
+                    <div class="a_section4">
+                        <h3 style="margin: 24px 0 8px;">지원동기</h3>
+                        <textarea name="applyarea1" id="txarea1" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="a_section4">
+                        <h3 style="margin: 24px 0 8px;">프로젝트 경험</h3>
+                        <textarea name="applyarea2" id="txarea2" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+        
+                <div class="a_section5">
+                    <button class="s_submit" type="submit" tabindex="10">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

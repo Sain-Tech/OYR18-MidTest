@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title><%= title %></title>
+</head>
+<body>
+    <header class="header">
+        <div class="div_inner_header">
+            <div>
+                OpenYearRound
+            </div>
+            <div>
+
+            </div>
+            <div class="div_status_header">
+                Sign In
+            </div>
+        </div>
+    </header>
+    <div class="div_main">
+        <div class="div_sec">
+            <form action="/login" method="POST">
+                <div class="div_caption">
+                    <h2>OYR</h2>
+                </div>
+        
+                <div class="div_input">
+                    <input class="s_input" type="text" name="id" placeholder="ID" tabindex="1">
+                    <input class="s_input" type="password" name="pw" placeholder="Password" tabindex="2">
+                </div>
+        
+                <div>
+                    <button class="s_submit" type="submit" tabindex="3">Sign in</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
